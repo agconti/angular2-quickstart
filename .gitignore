@@ -35,3 +35,7 @@ node_modules
 
 # jspm
 jspm_packages
+
+# built files
+*.js
+*.js.map
