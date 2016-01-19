@@ -33,10 +33,10 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
-# jspm
-jspm_packages
-!config.js
-
 # built files
 *.js
 *.js.map
+
+# jspm
+jspm_packages
+!config.js

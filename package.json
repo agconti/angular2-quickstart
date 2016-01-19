@@ -1,0 +1,33 @@
+{
+  "name": "crisis-center",
+  "version": "0.1.0",
+  "description": "An angular2 demonstration app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agconti/crisis-center.git"
+  },
+  "author": "Andrew Conti <agc11d@gmail.com> (agconti.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agconti/crisis-center/issues"
+  },
+  "homepage": "https://github.com/agconti/crisis-center#readme",
+  "devDependencies": {
+    "jspm": "^0.16.23",
+    "lite-server": "^1.3.2"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.1",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.3"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
